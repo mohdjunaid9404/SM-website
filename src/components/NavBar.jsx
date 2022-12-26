@@ -54,7 +54,8 @@ const NavBar = () => {
                 <NotificationsNoneRoundedIcon />
                 
              </Badge>
-                <Avatar sx={{width:"30px", height:"30px"}}
+                <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/2.jpg"
+                sx={{width:"30px", height:"30px"}}
                 onClick={e=>setOpen(true)}
                 >J</Avatar>
            </Icon>
