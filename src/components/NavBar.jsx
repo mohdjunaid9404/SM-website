@@ -61,7 +61,7 @@ const NavBar = () => {
            </Icon>
            <Userbox onClick={(e)=>{setOpen(true)}}>
            <Avatar sx={{width:"30px", height:"30px"}}>J</Avatar>
-           <Typography>Join</Typography>
+           <Typography>Mohd Junaid</Typography>
            </Userbox>
              
         </StyledToolbar>
