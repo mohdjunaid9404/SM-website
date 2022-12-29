@@ -10,7 +10,7 @@ import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
 
-const SideBar = () => {
+const SideBar = ({ mode, setMode }) => {
     return(
         <Box
         //  backgroundColor="lightsalmon" 
@@ -26,7 +26,7 @@ const SideBar = () => {
               <ListItemText primary="Homepage" />
             </ListItemButton>
           </ListItem>
-
+            
           <ListItem disablePadding>
             <ListItemButton component="a" href="#home">
               <ListItemIcon>
@@ -86,7 +86,7 @@ const SideBar = () => {
               <ListItemIcon>
                 <DarkModeIcon />
               </ListItemIcon>
-              <Switch/>
+              <Switch onChange={e=>{setMode(mode === "light" ? "dark" : "light")}} />
             </ListItemButton>
           </ListItem>
 

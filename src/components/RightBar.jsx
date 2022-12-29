@@ -4,7 +4,7 @@ import { Typography, Box, AvatarGroup, Avatar, ImageList, ImageListItem, List, L
 const RightBar = () => {
   return (
     <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }} >
-      <Box width={300}>
+      <Box width={300} position="fixed" >
         <Typography variant="h6" fontWeight={100} mt={2} mb={2}>Online Friends</Typography>
         <AvatarGroup max={7}>
           <Avatar
