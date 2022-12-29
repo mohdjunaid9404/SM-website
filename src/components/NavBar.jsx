@@ -60,7 +60,7 @@ const NavBar = () => {
                 >J</Avatar>
            </Icon>
            <Userbox onClick={(e)=>{setOpen(true)}}>
-           <Avatar sx={{width:"30px", height:"30px"}}>J</Avatar>
+           <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/2.jpg" sx={{width:"30px", height:"30px"}}>J</Avatar>
            <Typography>Mohd Junaid</Typography>
            </Userbox>
              

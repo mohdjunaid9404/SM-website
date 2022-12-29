@@ -6,7 +6,7 @@ import Feed from './components/Feed';
 import Add from './components/Add';
 import { Box, Stack, ThemeProvider, createTheme } from '@mui/material';
 function App() {
-const [mode, setMode] = useState("dark");
+const [mode, setMode] = useState("light");
 
 const darkTheme = createTheme({
   palette: {
